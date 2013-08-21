@@ -21,5 +21,10 @@ package
 		{
 			_isEmpty = false;
 		}
+
+		public function pop():void
+		{
+			_isEmpty = true;
+		}
 	}
 }

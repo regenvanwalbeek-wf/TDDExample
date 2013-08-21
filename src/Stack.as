@@ -29,10 +29,12 @@ package
 			_values[_values.length] = value;
 		}
 
-		public function pop():void
+		public function pop():Number
 		{
 			_count--;
+			var peekedVal:Number = peek();
 			_values = _values.splice(0, _values.length - 1);
+			return peekedVal;
 		}
 
 		public function peek():Number

@@ -8,16 +8,16 @@ package
 	 * Things that need to be implemented
 	 * [ ] Push
 	 * [ ] Pop
-	 * [ ] Count
+	 * [X] Count
 	 *		[X] count of new Stack = 0
 	 *		[X] count(push(i, s)) = count(s) + 1
 	 *		[X] count(stack.push.pop) = 0
 	 * [ ] Peek
-	 * [ ] IsEmpty
+	 * [X] IsEmpty
 	 * 		[X] New stack IsEmpty = true
 	 * 		[X] Stack with items pushed IsEmpty = false
 	 * 		[X] Stack with all items pulled IsEmpty = true
-	 * 		[ ] Stack with some items pulled off but not all
+	 * 		[X] Stack with some items pulled off but not all
 	 *
 	 * From Wikipedia
 	 *
@@ -54,6 +54,14 @@ package
 			assertFalse(stack.isEmpty());
 			stack.pop();
 			assertTrue(stack.isEmpty());
+		}
+
+		[Test]
+		public function testPeek():void
+		{
+			var stack:Stack = new Stack();
+			stack.push(1);
+			assertEquals(1, stack.peek());
 		}
 	}
 }

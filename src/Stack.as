@@ -8,5 +8,10 @@ package
 		public function Stack()
 		{
 		}
+
+		public function isEmpty():Boolean
+		{
+			return true;
+		}
 	}
 }

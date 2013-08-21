@@ -25,14 +25,14 @@ package
 
 		public function push(value:int):void
 		{
-			_isEmpty = false;
 			_count++;
+			_isEmpty = (_count == 0);
 		}
 
 		public function pop():void
 		{
-			_isEmpty = true;
 			_count--;
+			_isEmpty = (_count == 0);
 		}
 	}
 }

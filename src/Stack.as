@@ -29,5 +29,10 @@ package
 		{
 			_count--;
 		}
+
+		public function peek():int
+		{
+			return 1;
+		}
 	}
 }

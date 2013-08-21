@@ -13,6 +13,8 @@ package
 	 *		[X] count(push(i, s)) = count(s) + 1
 	 *		[X] count(stack.push.pop) = 0
 	 * [ ] Peek
+	 * 		[ ] Peeking off an empty stack should return NaN
+	 * 		[ ] Peeking off a non-empty stack should return the most recently pushed value
 	 * [X] IsEmpty
 	 * 		[X] New stack IsEmpty = true
 	 * 		[X] Stack with items pushed IsEmpty = false

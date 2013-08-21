@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c9c54f-bf31-4af7-8e0e-3c8dd8732679" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flexunit-4.1.0-8-flex_4.1.0.16076.swc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/flexCompiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StackTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TDDExample.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="82c9c54f-bf31-4af7-8e0e-3c8dd8732679" time="1377044658868" ignored="false" />
-    <file path="/fragment.js2" changelist="82c9c54f-bf31-4af7-8e0e-3c8dd8732679" time="1377045125051" ignored="false" />
+    <file path="/fragment.js2" changelist="82c9c54f-bf31-4af7-8e0e-3c8dd8732679" time="1377045780277" ignored="false" />
     <file path="/a.xml" changelist="82c9c54f-bf31-4af7-8e0e-3c8dd8732679" time="1377045021091" ignored="false" />
     <file path="/Test.as" changelist="82c9c54f-bf31-4af7-8e0e-3c8dd8732679" time="1377045213799" ignored="false" />
+    <file path="/StackTest.as" changelist="82c9c54f-bf31-4af7-8e0e-3c8dd8732679" time="1377045828270" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,10 +72,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TDDExample.mxml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TDDExample.mxml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TDDExample.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="3" column="6" selection-start="154" selection-end="154" vertical-scroll-proportion="-1.826087">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StackTest.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/StackTest.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="8" selection-start="362" selection-end="362" vertical-scroll-proportion="0.6099585">
               <folding />
             </state>
           </provider>
@@ -100,12 +110,14 @@
       <list>
         <option value="$PROJECT_DIR$/Test.as" />
         <option value="$PROJECT_DIR$/src/Test.as" />
+        <option value="$PROJECT_DIR$/src/StackTest.as" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="720" />
     <option name="y" value="22" />
-    <option name="width" value="1440" />
+    <option name="width" value="720" />
     <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -168,6 +180,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TDDExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TDDExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -203,7 +229,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="FlexUnit.Test">
+  <component name="RunManager" selected="Flash App.TDDExample">
     <configuration default="false" name="Test" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" temporary="true" appDescriptorForEmulator="Android" class_name="Test" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
       <option name="BCName" value="TDDExample" />
       <option name="launcherParameters">
@@ -334,6 +360,8 @@
       <option name="screenWidth" value="0" />
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
+      <RunnerSettings RunnerId="FlexRunner" />
+      <ConfigurationWrapper RunnerId="FlexRunner" />
       <method />
     </configuration>
     <list size="2">
@@ -352,8 +380,8 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
-    <editor active="false" />
+    <frame x="720" y="22" width="720" height="874" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -361,7 +389,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24605452" sideWeight="0.6705128" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5089021" sideWeight="0.6705128" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -446,7 +474,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TDDExample.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="3" column="6" selection-start="154" selection-end="154" vertical-scroll-proportion="-1.826087">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StackTest.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="8" selection-start="362" selection-end="362" vertical-scroll-proportion="0.6099585">
           <folding />
         </state>
       </provider>

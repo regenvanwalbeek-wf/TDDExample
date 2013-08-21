@@ -6,10 +6,11 @@ package
 
 	/**
 	 * Things that need to be implemented
-	 * [ ] Push
-	 * [ ] Pop
-	 * 		[ ] Popping off an empty stack will return NaN and the stack will be unchanged
-	 * 		[ ] Popping off a non-empty stack should return the top value
+	 * [X] Push
+	 * 		[X] If everything else works => Push works
+	 * [X] Pop
+	 * 		[X] Popping off an empty stack will return NaN and the stack will be unchanged
+	 * 		[X] Popping off a non-empty stack should return the top value
 	 * [X] Count
 	 *		[X] count of new Stack = 0
 	 *		[X] count(push(i, s)) = count(s) + 1
@@ -25,12 +26,12 @@ package
 	 *
 	 * From Wikipedia
 	 *
-	 * [ ] top(init()) = ERROR
-	 * [ ] top(push(i,s)) = i
-	 * [ ] pop(init()) = init()
-	 * [ ] pop(push(i, s)) = s
-	 * [ ] isempty(init()) = true
-	 * [ ] isempty(push(i, s)) = false
+	 * [X] top(init()) = ERROR
+	 * [X] top(push(i,s)) = i
+	 * [X] pop(init()) = init()
+	 * [X] pop(push(i, s)) = s
+	 * [X] isempty(init()) = true
+	 * [X] isempty(push(i, s)) = false
 	 */
 	public class StackTest
 	{

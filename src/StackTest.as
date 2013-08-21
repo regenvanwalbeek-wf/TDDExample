@@ -14,9 +14,9 @@ package
 	 *		[ ] count(stack.push.pop) = 0
 	 * [ ] Peek
 	 * [ ] IsEmpty
-	 * 		[X] Count of new stack IsEmpty = true
-	 * 		[ ] Count of stack with items pushed IsEmpty = false
-	 * 		[ ] Count of stack with all items pulled IsEmpty = true
+	 * 		[X] New stack IsEmpty = true
+	 * 		[X] Stack with items pushed IsEmpty = false
+	 * 		[ ] Stack with all items pulled IsEmpty = true
 	 *
 	 * From Wikipedia
 	 *

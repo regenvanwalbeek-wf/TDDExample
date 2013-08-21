@@ -1,5 +1,8 @@
 package
 {
+	import org.flexunit.asserts.assertEquals;
+	import org.flexunit.asserts.assertTrue;
+
 	/**
 	 * Things that need to be implemented
 	 * [ ] Push
@@ -24,7 +27,7 @@ package
 		public function testCount():void
 		{
 			var stack:Stack = new Stack();
-			assertTrue(0, stack.count);
+			assertEquals(0, stack.count);
 		}
 	}
 }

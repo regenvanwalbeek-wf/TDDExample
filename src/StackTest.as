@@ -16,7 +16,8 @@ package
 	 * [ ] IsEmpty
 	 * 		[X] New stack IsEmpty = true
 	 * 		[X] Stack with items pushed IsEmpty = false
-	 * 		[ ] Stack with all items pulled IsEmpty = true
+	 * 		[X] Stack with all items pulled IsEmpty = true
+	 * 		[ ] Stack with some items pulled off but not all
 	 *
 	 * From Wikipedia
 	 *
@@ -34,6 +35,10 @@ package
 		public function testCount():void
 		{
 			var stack:Stack = new Stack();
+			assertEquals(0, stack.count);
+			stack.push(5);
+			assertEquals(1, stack.count);
+			stack.pop();
 			assertEquals(0, stack.count);
 		}
 

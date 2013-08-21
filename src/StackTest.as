@@ -10,8 +10,8 @@ package
 	 * [ ] Pop
 	 * [ ] Count
 	 *		[X] count of new Stack = 0
-	 *		[ ] count(push(i, s)) = count(s) + 1
-	 *		[ ] count(stack.push.pop) = 0
+	 *		[X] count(push(i, s)) = count(s) + 1
+	 *		[X] count(stack.push.pop) = 0
 	 * [ ] Peek
 	 * [ ] IsEmpty
 	 * 		[X] New stack IsEmpty = true
@@ -48,6 +48,9 @@ package
 			var stack:Stack = new Stack();
 			assertTrue(stack.isEmpty());
 			stack.push(5);
+			stack.push(5);
+			assertFalse(stack.isEmpty());
+			stack.pop();
 			assertFalse(stack.isEmpty());
 			stack.pop();
 			assertTrue(stack.isEmpty());

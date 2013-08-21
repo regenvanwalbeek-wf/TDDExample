@@ -12,10 +12,11 @@ package
 
 		private var _values:Array;
 
+		private var _head:Node;
+
 		public function Stack()
 		{
-			_count = 0;
-			_values = [];
+			_head = null;
 		}
 
 		public function isEmpty():Boolean
@@ -26,22 +27,32 @@ package
 		public function push(value:int):void
 		{
 			_count++;
-			_values[_values.length] = value;
+			if (_head == null)
+			{
+				_head = new Node(value);
+			}
+			else
+			{
+				var newHead:Node = new Node(value);
+				newHead.next = _head;
+				_head = newHead;
+			}
 		}
 
 		public function pop():Number
 		{
 			_count--;
 			var peekedVal:Number = peek();
-			_values = _values.splice(0, _values.length - 1);
+			if (_head)
+				_head = _head.next;
 			return peekedVal;
 		}
 
 		public function peek():Number
 		{
-			if (_values.length == 0)
+			if (_head == null)
 				return NaN;
-			return _values[_values.length - 1];
+			return _head.getValue();
 		}
 	}
 }

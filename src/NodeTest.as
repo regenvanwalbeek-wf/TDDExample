@@ -1,8 +1,11 @@
 package
 {
+	import org.flexunit.asserts.assertEquals;
+
 	public class NodeTest
 	{
 
+		[Test]
 		public function testNodeGetterSetter():void
 		{
 			var node:Node = new Node(5);

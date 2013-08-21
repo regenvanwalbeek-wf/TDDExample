@@ -10,29 +10,24 @@ package
 			return _count;
 		}
 
-		private var _isEmpty:Boolean;
-
 		public function Stack()
 		{
-			_isEmpty = true;
 			_count = 0;
 		}
 
 		public function isEmpty():Boolean
 		{
-			return _isEmpty;
+			return _count == 0;
 		}
 
 		public function push(value:int):void
 		{
 			_count++;
-			_isEmpty = (_count == 0);
 		}
 
 		public function pop():void
 		{
 			_count--;
-			_isEmpty = (_count == 0);
 		}
 	}
 }

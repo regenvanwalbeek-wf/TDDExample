@@ -10,6 +10,8 @@ package
 			return _count;
 		}
 
+		private var _mostRecent:int;
+
 		public function Stack()
 		{
 			_count = 0;
@@ -23,6 +25,7 @@ package
 		public function push(value:int):void
 		{
 			_count++;
+			_mostRecent = value;
 		}
 
 		public function pop():void
@@ -32,7 +35,7 @@ package
 
 		public function peek():int
 		{
-			return 1;
+			return _mostRecent;
 		}
 	}
 }

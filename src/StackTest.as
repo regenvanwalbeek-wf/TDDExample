@@ -64,6 +64,8 @@ package
 			var stack:Stack = new Stack();
 			stack.push(1);
 			assertEquals(1, stack.peek());
+			stack.push(2);
+			assertEquals(2, stack.peek());
 		}
 	}
 }

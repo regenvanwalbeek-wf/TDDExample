@@ -44,7 +44,8 @@ package
 			assertTrue(stack.isEmpty());
 			stack.push(5);
 			assertFalse(stack.isEmpty());
-
+			stack.pop();
+			assertTrue(stack.isEmpty());
 		}
 	}
 }

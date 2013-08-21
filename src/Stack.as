@@ -10,12 +10,12 @@ package
 			return _count;
 		}
 
-		private var _mostRecent:Number;
+		private var _values:Array;
 
 		public function Stack()
 		{
 			_count = 0;
-			_mostRecent = NaN;
+			_values = [];
 		}
 
 		public function isEmpty():Boolean
@@ -26,17 +26,20 @@ package
 		public function push(value:int):void
 		{
 			_count++;
-			_mostRecent = value;
+			_values[_values.length] = value;
 		}
 
 		public function pop():void
 		{
 			_count--;
+			_values = _values.splice(0, _values.length - 1);
 		}
 
 		public function peek():Number
 		{
-			return _mostRecent;
+			if (_values.length == 0)
+				return NaN;
+			return _values[_values.length - 1];
 		}
 	}
 }

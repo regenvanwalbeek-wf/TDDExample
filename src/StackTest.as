@@ -68,6 +68,10 @@ package
 			assertEquals(1, stack.peek());
 			stack.push(2);
 			assertEquals(2, stack.peek());
+			stack.pop();
+			assertEquals(1, stack.peek());
+			stack.pop();
+			assertTrue(isNaN(stack.peek()));
 		}
 	}
 }

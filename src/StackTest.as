@@ -19,6 +19,12 @@ package
 	 */
 	public class StackTest
 	{
-		
+
+		[Test]
+		public function testCount():void
+		{
+			var stack:Stack = new Stack();
+			assertTrue(0, stack.count);
+		}
 	}
 }

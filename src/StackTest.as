@@ -1,6 +1,7 @@
 package
 {
 	import org.flexunit.asserts.assertEquals;
+	import org.flexunit.asserts.assertFalse;
 	import org.flexunit.asserts.assertTrue;
 
 	/**
@@ -41,6 +42,9 @@ package
 		{
 			var stack:Stack = new Stack();
 			assertTrue(stack.isEmpty());
+			stack.push(5);
+			assertFalse(stack.isEmpty());
+
 		}
 	}
 }

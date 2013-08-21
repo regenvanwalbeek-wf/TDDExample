@@ -8,6 +8,9 @@ package
 	 * [ ] Push
 	 * [ ] Pop
 	 * [ ] Count
+	 *		[X] count of new Stack = 0
+	 *		[ ] count(push(i, s)) = count(s) + 1
+	 *		[ ] count(stack.push.pop) = 0
 	 * [ ] Peek
 	 * [ ] IsEmpty
 	 *
@@ -28,6 +31,13 @@ package
 		{
 			var stack:Stack = new Stack();
 			assertEquals(0, stack.count);
+		}
+
+		[Test]
+		public function testIsEmpty():void
+		{
+			var stack:Stack = new Stack();
+			assertTrue(stack.isEmpty());
 		}
 	}
 }

@@ -10,11 +10,12 @@ package
 			return _count;
 		}
 
-		private var _mostRecent:int;
+		private var _mostRecent:Number;
 
 		public function Stack()
 		{
 			_count = 0;
+			_mostRecent = NaN;
 		}
 
 		public function isEmpty():Boolean
@@ -33,7 +34,7 @@ package
 			_count--;
 		}
 
-		public function peek():int
+		public function peek():Number
 		{
 			return _mostRecent;
 		}
